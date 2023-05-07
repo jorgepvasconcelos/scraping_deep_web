@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "scraping-deep-web"
+version = "0.1.0"
+description = ""
+authors = ["jorgepvasconcelos <jorge.r.p.v@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "scraping_deep_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
