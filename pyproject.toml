@@ -8,7 +8,9 @@ packages = [{include = "scraping_deep_web"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-requests = "^2.30.0"
+scrapy = "^2.8.0"
+pysocks = "^1.7.1"
+pproxy = "^2.7.8"
 
 
 [build-system]
