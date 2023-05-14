@@ -11,6 +11,7 @@ python = "^3.11"
 scrapy = "^2.8.0"
 pysocks = "^1.7.1"
 pproxy = "^2.7.8"
+elasticsearch = "7.14.0"
 
 
 [build-system]
