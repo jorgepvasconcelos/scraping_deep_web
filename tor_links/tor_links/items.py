@@ -15,6 +15,8 @@ def strip(value):
         v.strip()
         return v
 
+    return value
+
 
 def remove_go_to(value: str):
     return value.replace('Go to: ', '')
